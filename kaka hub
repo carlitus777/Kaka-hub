@@ -1,0 +1,256 @@
+-- carregar biblioteca
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "kaka hub" .. Fluent.Version,
+    TabWidth = 160, Size = UDim2.fromOffset(580, 460), Theme = "Dark"
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Main", Icon = "home"}),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }), 
+    Bedwars = Window:AddTab({ Title = "bedwars", Icon = "bed"}), 
+    Volleyball = Window:AddTab({ Title = "volleyball", Icon = "ball"}), 
+    Bloxfruits = Window:AddTab({ Title = "blox fruits", Icon = "apple"}), 
+    Deadrails  = Window:AddTab({ Title = "dead rails", Icon = "skull"}), 
+    Fish = Window:AddTab({ Title = "fish", Icon = "sea"}), 
+    Animepower = Window:AddTab({ Title = "anime power", Icon = "home"}), 
+    Doors = Window:AddTab({ Title = "doors", Icon = "door"}), 
+    Viagemempueirada = Window:AddTab({ Title = "viagemempueirada", Icon = "home"}), 
+    Lendasninja = Window:AddTab({ Title = "lendas ninja", Icon = "sword"}), 
+    Bluelock = Window:AddTab({ Title = "blue lock", Icon = "boll"}), 
+    Jujutsuinfinite = Window:AddTab({ Title = "jujutsu infinite", Icon = "home"}), 
+    Ninjatime = Window:AddTab({ Title = "ninja time", Icon = "sword"}), 
+    Malldrifters = Window:AddTab({ Title = "mall drifters", Icon = "home"}), 
+    Musclelegends = Window:AddTab({ Title = "Muscle legends", Icon = "muscle"}), 
+    Thestrongestbattlegrounds = Window:AddTab({ Title = "The strongest battlegrounds", Icon = "home"}),
+    Animevanguards = Window:AddTab({ Title = "Anime vanguards", Icon = "home"}),
+    PetGO = Window:AddTab({ Title = "Pet GO", Icon = "home"}),
+    Animereborn = Window:AddTab({ Title = "Anime reborn", Icon = "home"}),
+    Arisecrossover = Window:AddTab({ Title = "Arise crossover", Icon = "home"}),
+}
+-- paragrafos
+Tabs.Main:AddParagraph({
+                                        Title = "aqui vai aparecer oque veio no script, script feito pelo carlos",
+                                        Content = "ultima atualizacão dia 22 de abril, hoje veio script de blox fruits eles são, hoho hub, tsuo hub, blue X, e redz hub"
+})
+
+
+-- botões 
+Tabs.Main:AddButton({
+                                        Title = "infinite jump",
+                                        Callback = function()
+                                                                                loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/infjump/main/main"))()
+                                        end
+})
+ 
+ -- botão 2
+Tabs.Main:AddButton({
+                                        Title = "infiniteyield",
+                                        Callback = function()
+                                                                                loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+                                        end
+})
+
+-- botão bedwars
+Tabs.Bedwars:AddButton({
+                                        Title = "bedwars",
+                                        Callback = function()
+                                                                                loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+                                        end
+})
+
+
+-- botão volleyball
+Tabs.Volleyball:AddButton({
+                                         Title = "volleiball", 
+                                                                          Callback = function()
+                                                                                                                   loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()
+                                           end
+ })
+
+ 
+-- botão blox fruits
+Tabs.Bloxfruits:AddButton({ 
+                                           Title = "redz hub",
+                                                                               Callback = function() 
+                                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
+                                           end
+ })
+ 
+ -- botão 2
+ Tabs.Bloxfruits:AddButton({ 
+                                           Title = "hoho hub",
+                                                                               Callback = function() 
+                                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+                                           end
+ })
+ 
+ -- botão 3
+ Tabs.Bloxfruits:AddButton({ 
+                                           Title = "blue X hub",
+                                                                               Callback = function() 
+                                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+                                           end
+ })
+ 
+ -- botão 4
+ Tabs.Bloxfruits:AddButton({ 
+                                           Title = "tsuo hub",
+                                                                               Callback = function() 
+                                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+                                           end
+ })
+ 
+ -- botão 5
+ Tabs.Bloxfruits:AddButton({ 
+                                           Title = "astral hub",
+                                                                               Callback = function() 
+                                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+                                           end
+ })
+ 
+ 
+ 
+ 
+ 
+-- botão dead rails 
+Tabs.Deadrails :AddButton({
+                                                Title = "dead rails ", 
+                                                                                          Callback = function()
+                                                                                                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()
+                                            end 
+})
+
+
+-- botão fish
+Tabs.Fish:AddButton({ 
+                                Title = "Fish",
+                                                          Callback = function() 
+                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+                                            end 
+})
+
+
+-- paragrafo do anime power
+Tabs.Animepower:AddParagraph({ Title = "pegar key", Content = "para vc pegar a key tem que entrar no discord dos criadores" })
+
+-- botão anime power
+Tabs.Animepower:AddButton({ 
+                                                 Title = "anime power", 
+                                                                                      Callback = function() 
+                                                                                                                 loadstring(game:HttpGet("https://rawscripts.net/raw/RELEASE-Anime-Power-RELEASE-BEST-SCRIPT-GET-TO-LEADERBOARDS-LIKE-ME-NOW-31989"))() 
+                                               end
+ })
+
+-- botão doors
+Tabs.Doors:AddButton({ 
+                                   Title = "doors", 
+                                                               Callback = function() 
+                                                                                                       loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))() 
+                                                 end 
+})   
+
+-- botão Viagemempueirada
+Tabs.Viagemempueirada:AddButton({
+                                                           Title = "viagem empueirada", 
+                                                                                                                Callback = function() 
+                                                                                                                                        loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/Test-Script/main/a%20dusty%20trip.Lua"))()
+                                              end
+ })
+
+Tabs.Lendasninja:AddButton({
+                                              Title = "lendas ninja", 
+                                                                                    Callback = function() 
+                                                                                                                                       loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+                                              end 
+})
+ 
+-- botão blue lock
+Tabs.Bluelock:AddButton({
+                                              Title = "blue lock", 
+                                                                                   Callback = function() 
+                                                                                                                                       loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()
+                                              end
+ })
+
+-- botão blue lock 2
+Tabs.Bluelock:AddButton({
+                                              Title = "blue lock aumetar hit box", 
+                                                                                   Callback = function() 
+                                                                                                                                       loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/HitboxExpander"))()
+                                               end
+ })
+
+
+-- botão jujutsu infinite
+Tabs.Jujutsuinfinite:AddButton({
+                                              Title = "jujutsu infinite", 
+                                                                                   Callback = function() 
+                                                                                                                                       loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()
+                                              end
+ })
+
+-- botão ninja time
+Tabs.Ninjatime:AddButton({
+                                              Title = "ninja time", 
+                                                                                   Callback = function() 
+                                                                                                                                       loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()
+                                              end
+ })
+
+-- botão mall drifters
+Tabs.Malldrifters:AddButton({
+                                              Title = "mall drifters", 
+                                                                                   Callback = function() 
+                                                                                                                                       loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()
+                                              end
+ })
+
+-- botão muscle legends
+Tabs.Musclelegends:AddButton({ 
+                                Title = "Muscle legends",
+                                                          Callback = function() 
+                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+                                            end 
+})
+
+-- botão the Strongest battlegrounds
+Tabs.Thestrongestbattlegrounds:AddButton({ 
+                                Title = "The Strongest battlegrounds",
+                                                          Callback = function() 
+                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+                                            end 
+})
+
+-- botão anine vanguards
+Tabs.Animevanguards:AddButton({ 
+                                Title = "Anime vanguards",
+                                                          Callback = function() 
+                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+                                            end 
+})
+
+-- botão pet go
+Tabs.PetGO:AddButton({ 
+                                Title = "Pet GO",
+                                                          Callback = function() 
+                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+                                            end 
+})
+
+-- botão anime reborn
+Tabs.Animereborn:AddButton({ 
+                                Title = "Anime reborn",
+                                                          Callback = function() 
+                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+                                            end 
+})
+
+-- botão Arise crossover
+Tabs.Arisecrossover:AddButton({ 
+                                Title = "Arise crossover",
+                                                          Callback = function() 
+                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+                                            end 
+})
